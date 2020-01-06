@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Quiz>
+  <List>
+    <LinkQuiz>
+      <InitQuizInfo ID="0">
+        <Text>4개의 식물 각각에 해당하는 특징을 연결시켜보자
+ㄱ.  많은 잎을 가지고 있어서 물 속에서도 광합성에 용이하다.
+ㄴ.  수심이 깊어짐에 따라 뿌리도 길어진다.
+ㄷ. 잎의 윗면에 기공이 있어서 기체 교환이 원활하게 일어난다.
+ㄹ. 공기주머니가 있어서 물 위에 떠서 생활 할 수 있다.</Text>
+        <LeftPanel>
+          <InitItem ID="0" Name="qitem1">
+            <Text>가시연꽃</Text>
+            <Pair>2</Pair>
+          </InitItem>
+          <InitItem ID="1" Name="qitem2">
+            <Text>자라풀</Text>
+            <Pair>3</Pair>
+          </InitItem>
+          <InitItem ID="2" Name="qitem3">
+            <Text>검정말</Text>
+            <Pait>0</Pait>
+          </InitItem>
+          <InitItem ID="3" Name="qitem4">
+            <Text>노랑어리연꽃</Text>
+            <Pair>1</Pair>
+          </InitItem>
+        </LeftPanel>
+        <RightPanel>
+          <InitItem ID="0" Name="aitem1">
+            <Text>ㄱ</Text>
+            <Pair>2</Pair>
+          </InitItem>
+          <InitItem ID="1" Name="aitem2">
+            <Text>ㄴ</Text>
+            <Pair>3</Pair>
+          </InitItem>
+          <InitItem ID="2" Name="aitem3">
+            <Text>ㄷ</Text>
+            <Pair>0</Pair>          
+          </InitItem>
+          <InitItem ID="3" Name="aitem4">
+            <Text>ㄹ</Text>
+            <Pair>1</Pair>
+          </InitItem>
+        </RightPanel>
+      </InitQuizInfo>
+    </LinkQuiz>
+    <ImgOptQuiz>
+      <InitQuizInfo ID="0">
+        <Question>따오기는 어느 사진 일까요?</Question>
+        <OrderPanel>
+          <InitItem ID="0" Name="item0">
+            <Sprite>두루미</Sprite>
+            <Text>두루미</Text>
+          </InitItem>
+          <InitItem ID="1" Name="item1">
+            <Sprite>따오기3</Sprite>
+            <Text>따오기</Text>
+          </InitItem>
+          <InitItem ID="2" Name="item2">
+            <Sprite>백로</Sprite>
+            <Text>백로</Text>
+          </InitItem>
+        </OrderPanel>
+        <AnswerList>
+          <InitAnswer ID="0" Answer="따오기"/>
+        </AnswerList>
+      </InitQuizInfo>
+      <InitQuizInfo ID="1">
+        <Question>따오기의 알은 무엇일까요?</Question>
+        <OrderPanel>
+          <InitItem ID="0" Name="item0">
+            <Sprite>메추리알</Sprite>
+            <Text>메추리알</Text>
+          </InitItem>
+          <InitItem ID="1" Name="item1">
+            <Sprite>계란</Sprite>
+            <Text>계란</Text>
+          </InitItem>
+          <InitItem ID="2" Name="item2">
+            <Sprite>따오기알</Sprite>
+            <Text>따오기알</Text>
+          </InitItem>
+          <InitItem ID="3" Name="item3">
+            <Sprite>오리알</Sprite>
+            <Text>오리알</Text>
+          </InitItem>
+        </OrderPanel>
+        <AnswerList>
+          <InitAnswer ID="0" Answer="따오기알"/>
+        </AnswerList>
+      </InitQuizInfo>
+    </ImgOptQuiz>
+    <OptQuiz>
+      <InitQuizInfo ID="0">
+        <Question>따오기의 번식기는 언제일까요?</Question>
+        <OrderPanel>
+          <InitItem ID="0" Name="Item0">
+            <Text>3~5월</Text>
+          </InitItem>
+          <InitItem ID="1" Name="Item1">
+            <Text>7~8월</Text>
+          </InitItem>
+          <InitItem ID="2" Name="Item2">
+            <Text>11~12월</Text>
+          </InitItem>
+        </OrderPanel>
+        <AnswerList>
+          <InitAnswer ID="0" Answer="3~5월"/>
+        </AnswerList>
+      </InitQuizInfo>
+    </OptQuiz>    
+  </List> 
+</Quiz>
