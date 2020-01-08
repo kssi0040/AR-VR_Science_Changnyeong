@@ -157,4 +157,27 @@ public class ScrollRectSnap : MonoBehaviour
     {
         SceneManager.LoadScene("Start");
     }
+
+    public void MapButtonEvent()
+    {
+        if (0 == iMinButtonNum)
+        {
+            //36.895005, 126.206617
+            string strUrl = "https://www.google.co.kr/maps/place/%EC%9A%B0%ED%8F%AC%EB%8A%AA/@35.5445848,128.4179043,18z/data=!3m1!4b1!4m5!3m4!1s0x356f448d07583f19:0xb17ed60e171d56b3!8m2!3d35.5445826!4d128.4189986?hl=ko";
+            Application.OpenURL(strUrl);
+        }
+        else if (1 == iMinButtonNum)
+        {
+            string strUrl = "https://www.google.co.kr/maps/place/%EC%9A%B0%ED%8F%AC%EB%8A%AA/@35.5445848,128.4179043,18z/data=!3m1!4b1!4m5!3m4!1s0x356f448d07583f19:0xb17ed60e171d56b3!8m2!3d35.5445826!4d128.4189986?hl=ko";
+            Application.OpenURL(strUrl);
+        }
+        else if (2 == iMinButtonNum)
+        {
+            //36.845262, 126.196726            
+            //string strUrl = "https://www.google.com/maps/place/36.835972,126.195911";
+            //Application.OpenURL(strUrl);
+        }
+    }
+
+
 }
